@@ -74,6 +74,6 @@ div div div.circle:first-child {
     opacity: 0.5;
 }
 
-#second-row.circle:hover {
+#second-row .circle:hover {
     transform: scale(1.25);
 }
