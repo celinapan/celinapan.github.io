@@ -1,0 +1,146 @@
+body {
+    font-family: "Avenir";
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+#nav {
+    color: white;
+    padding: 20px;
+    font-family: "Noto Serif"
+}
+
+#nav a {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+#nav a:visited {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#title {
+    color: white;
+    font-family: "Noto Serif";
+    font-size: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#desc {
+    font-size: 30px;
+}
+
+.pictures img {
+    width: 500px;
+}
+
+#image-banner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.597), 
+        rgba(0, 0, 0, 0.597)
+      ), url('../landscapenoodle.jpg');
+    background-size: cover;
+}
+
+.pictures img {
+    width: 50px;
+    height: auto;
+    overflow: hidden;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.bottom img {
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden; 
+    padding: 15px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.bottom {
+    background: #A69C90;
+    width: 100%;
+    height: 450px;
+    
+}
+
+.bottom .pics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.addy {
+    color: #3E2D24;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.items{
+    margin:auto;
+    width: 800px;
+}
+#menu {
+    color: #A69C90;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#menu p {
+    padding-left: 15px;
+}
+
+h1 {
+    color: #3E2D24;
+    font-family: "Noto Serif";
+}
+
+h3 {
+    color:white ;
+    font-family: "Noto Serif";
+}
+
+.line {
+    background: #A69C90;
+    width: 200px;
+    height: 2px;
+}
+
+.last {
+    padding-bottom: 40px;
+}
