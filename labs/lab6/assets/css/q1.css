@@ -10,6 +10,19 @@
     opacity: 0.7;
 }
 
+.button:hover {
+    opacity: 100%;
+    animation-name: turn;
+    animation-duration: .45s;
+
+}
+
+@keyframes turn {
+    0%{transform: perspective(300px);}
+	50%{transform: perspective(300px) rotateZ(180deg);}
+	100%{transform: perspective(300px) rotateZ(1800deg);  border-radius: 50%;}
+ }
+
 #row {
     position: absolute;
     left: 50%;
